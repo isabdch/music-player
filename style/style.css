@@ -1,0 +1,147 @@
+@font-face {
+    font-family: myFont;
+    src: url("./font/typewcond_regular.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+
+body {
+    background: #A1FFCE;
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+
+}
+
+a {
+    position: fixed;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.player {
+    text-align: center;
+    margin-top: 26px;
+}
+
+#now-playing {
+    font-size: 1.1rem;
+}
+
+#song-name,
+#artist-name {
+    font-size: 1.4rem;
+}
+
+#song-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 14px;
+}
+
+.buttons {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.buttons div {
+    display: inline;
+}
+
+.buttons i {
+    cursor: pointer;
+}
+
+#previows-song,
+#next-song {
+    font-size: 2rem;
+}
+
+#play-pause {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slider div,
+input {
+    display: inline;
+    margin-bottom: 15px;
+}
+
+.volume-slider {
+    margin-left: 8px
+}
+
+input[type="range"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 250px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 8px;
+    cursor: pointer;
+    background: #7EDAAA;
+}
+
+input[type=range]::-moz-range-track {
+    height: 8px;
+    cursor: pointer;
+    background: #7EDAAA;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 14px;
+    width: 14px;
+    border-radius: 5px;
+    background: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 14px;
+    width: 14px;
+    border-radius: 5px;
+    background: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3px;
+}
+
+input[type=range]::-ms-thumb {
+    height: 14px;
+    width: 14px;
+    border-radius: 5px;
+    background: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3px;
+}
+
+@media screen and (max-width: 300px) {
+    input[type="range"] {
+        width: 185px;
+    }
+}
