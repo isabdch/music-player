@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: myFont;
+    color: #000000d0;
 }
 
 body {
@@ -43,6 +44,13 @@ a:hover {
 #song-name,
 #artist-name {
     font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#song-name:hover,
+#artist-name:hover {
+    color: #000000;
 }
 
 #song-img {
@@ -65,6 +73,12 @@ img {
 
 .buttons i {
     cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.buttons i:hover {
+    color: #000000;
 }
 
 #previows-song,
@@ -85,7 +99,7 @@ input {
 }
 
 .volume-slider {
-    margin-left: 8px
+    margin-left: 10px
 }
 
 input[type="range"] {
@@ -114,30 +128,45 @@ input[type=range]::-webkit-slider-thumb {
     height: 14px;
     width: 14px;
     border-radius: 5px;
-    background: #000000;
+    background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -3px;
+    transition: all 0.3s ease;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+    background-color: #000000;
 }
 
 input[type=range]::-moz-range-thumb {
     height: 14px;
     width: 14px;
     border-radius: 5px;
-    background: #000000;
+    background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -3px;
+    transition: all 0.3s ease;
+}
+
+input[type=range]::-moz-range-thumb:hover {
+    background-color: #000000;
 }
 
 input[type=range]::-ms-thumb {
     height: 14px;
     width: 14px;
     border-radius: 5px;
-    background: #000000;
+    background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -3px;
+    transition: all 0.3s ease;
+}
+
+input[type=range]::-ms-thumb:hover {
+    background-color: #000000;
 }
 
 @media screen and (max-width: 300px) {
