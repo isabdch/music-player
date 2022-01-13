@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Music Player</title>
+    <title>Music Player</title>
     <link href="./style/style.css" rel="stylesheet">
     <script src="./script/script.js" defer></script>
     <link href="./images/nota-musical.png" rel="icon">
@@ -17,19 +17,19 @@
     <div class="player">
         <div class="info">
             <div id="now-playing">Now playing X of Y</div>
-            <div id="song-img"><img src="./images/ylang ylang.jpg" alt="fkj - ylang ylang" height="220px"></div>
+            <div id="song-img"><img id="img-song" src="./images/ylang ylang.jpg" alt="fkj - ylang ylang" height="220px"></div>
             <div id="song-name">Song name</div>
             <div id="artist-name">Artist name</div>
         </div>
         <div class="buttons">
-            <div id="previows-song"><i class="fas fa-step-backward"></i></div>
-            <div id="play-pause"><i class="fas fa-play-circle"></i></div>
+            <div id="previous-song"><i id="song-previous" class="fas fa-step-backward"></i></div>
+            <div id="play-pause"><i id="pause-play" class="fas fa-play-circle"></i></div>
             <!-- <i class="fas fa-pause-circle"></i> -->
-            <div id="next-song"><i class="fas fa-step-forward"></i></div>
+            <div id="next-song"><i id="song-next" class="fas fa-step-forward"></i></div>
         </div>
         <div class="slider">
             <div class="current-time">00:00</div>
-            <input class="seek-slider" type="range" value="0" min="0" max="100">
+            <input class="song-slider" type="range" value="0" min="0" max="100">
             <div class="total-duration">00:00</div>
         </div>
         <div class="slider">
