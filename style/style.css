@@ -34,11 +34,11 @@ a:hover {
 
 .player {
     text-align: center;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 #now-playing {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #song-name,
