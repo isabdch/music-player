@@ -1,6 +1,22 @@
-@font-face {
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <script src="./script/script.js" defer></script>
+    <link href="./images/musical-note.png" rel="icon">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <style>
+        @font-face {
     font-family: myFont;
-    src: url("./font/typewcond_regular.otf");
+    src: url("../style/font/typewcond_regular.otf");
 }
 
 * {
@@ -12,8 +28,8 @@
 }
 
 body {
-    background: #A1FFCE;
-    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: #f6cab7;
+    background: linear-gradient(to right, #faeae2, #f6cab7, #efaa90, #e7896d, #dd664e);
 
 }
 
@@ -61,8 +77,8 @@ a:hover {
     margin-bottom: 15px;
 }
 
-#img-song {
-    box-shadow: 10px 8px 0px #7EDAAA;
+#song-img img {
+    box-shadow: 10px 8px 0px #dd664e;
 }
 
 .buttons {
@@ -89,8 +105,7 @@ a:hover {
     font-size: 2rem;
 }
 
-#restart,
-#repeat-song {
+#restart, #repeat-song {
     font-size: 1.4rem;
 }
 
@@ -135,13 +150,19 @@ input[type="range"]:focus {
 input[type="range"]::-webkit-slider-runnable-track {
     height: 5px;
     cursor: pointer;
-    background: var(--track-background, #7EDAAA);
+}
+
+.fkj::-webkit-slider-runnable-track {
+    background: #dd664e;
 }
 
 input[type="range"]::-moz-range-track {
     height: 5px;
     cursor: pointer;
-    background: var(--track-background, #7EDAAA);
+}
+
+.fkj::-moz-range-track {
+    background: #dd664e;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -201,3 +222,38 @@ input[type="range"]::-ms-thumb:hover {
         width: 85px;
     }
 }
+    </style>
+</head>
+
+<body>
+    <a id="github" href="https://github.com/isabdch" target="_blank"><img src="../images/github1.png" height="23px"></a>
+    <div class="player">
+        <div class="info">
+            <div id="now-playing">Now playing X of Y</div>
+            <div id="song-img"><img id="img-song" src="../images/let-go.png" alt="fkj - ylang ylang" height="220px">
+            </div>
+            <div id="song-name">Song name</div>
+            <a id="artist-name" target="_blank" href="https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z"></a></a>
+        </div>
+        <div class="buttons">
+            <div id="go-start"><i id="restart" class="fas fa-undo"></i></div>
+            <div id="previous-song"><i id="song-previous" class="fas fa-step-backward"></i></div>
+            <div id="play-pause"><i id="pause-play" class="fas fa-play-circle"></i></div>
+            <!-- <i class="fas fa-pause-circle"></i> -->
+            <div id="next-song"><i id="song-next" class="fas fa-step-forward"></i></div>
+            <div id="repeat"><i id="repeat-song" class="fas fa-repeat"></i></div>
+        </div>
+        <div class="slider">
+            <div id="current-time">00:00</div>
+            <input class="fkj" id="song-slider" type="range" value="0" min="0" max="100">
+            <div id="total-duration">00:00</div>
+        </div>
+        <div class="slider">
+            <i class="fas fa-volume-off"></i>
+            <input class="fkj" id="volume-slider" type="range" value="50" min="0" max="100">
+            <i class="fas fa-volume-up"></i>
+        </div>
+    </div>
+</body>
+
+</html>
