@@ -43,7 +43,6 @@ let trackList = [
     darkcolor: "#7EDAAA",
     backgroundColor: "#A1FFCE",
     backgroundColorGradient: "linear-gradient(to right, #FAFFD1, #A1FFCE)",
-    class: "fkj",
     github: "./images/github.png",
   },
   {
@@ -54,9 +53,7 @@ let trackList = [
     path: "./songs/Ark Patrol - Let Go.mp3",
     artistnamecolor: "#c95038",
     darkcolor: "#dd664e",
-    backgroundColor: "#f6cab7",
     backgroundColorGradient: "linear-gradient(to right, #faeae2, #f6cab7, #efaa90, #e7896d, #dd664e)",
-    class: "ark-patrol",
     github: "./images/github1.png"
   },
   {
@@ -65,6 +62,10 @@ let trackList = [
     image: "./images/love-unlimited.png",
     link: "https://open.spotify.com/artist/2TWKl87Jnmd5MApKEpVCxA",
     path: "./songs/Blackbird Blackbird - Love Unlimited.mp3",
+    artistnamecolor: "#389bd1",
+    darkcolor: "#389bd1",
+    backgroundColorGradient: "linear-gradient(to right, #cce1f2, #b2d6f1, #96cbf0, #75c0ee, #4bb5ed)",
+    github: "./images/github2.png"
   },
   {
     name: "love, death, distraction",
@@ -72,6 +73,10 @@ let trackList = [
     image: "./images/love-death-distraction.png",
     link: "https://open.spotify.com/artist/1t20wYnTiAT0Bs7H1hv9Wt",
     path: "./songs/EDEN - love, death, distraction.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Poison Tree",
@@ -79,6 +84,10 @@ let trackList = [
     image: "./images/poison-tree.png",
     link: "https://open.spotify.com/artist/31uyAcnY0kjjKKIQZMKX4i",
     path: "./songs/Grouper - Poison Tree.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Comfort Chain",
@@ -86,6 +95,10 @@ let trackList = [
     image: "./images/comfort-chain.png",
     link: "https://open.spotify.com/artist/3ctnkEZGtVBTxS7IMin8nC",
     path: "./songs/Instupendo - Comfort Chain.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Gravity",
@@ -93,6 +106,10 @@ let trackList = [
     image: "./images/gravity.png",
     link: "https://open.spotify.com/artist/1t20wYnTiAT0Bs7H1hv9Wt",
     path: "./songs/EDEN - Gravity.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Forever",
@@ -100,6 +117,10 @@ let trackList = [
     image: "./images/forever.png",
     link: "https://open.spotify.com/artist/2feDdbD5araYcm6JhFHHw7",
     path: "./songs/Labrinth – Forever.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Goodbye",
@@ -107,6 +128,10 @@ let trackList = [
     image: "./images/goodbye.png",
     link: "https://open.spotify.com/artist/1se3w7gpZkwcJYgHSPDoQ8",
     path: "./songs/Ramsey - Goodbye.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
   {
     name: "Yellow Box",
@@ -114,6 +139,10 @@ let trackList = [
     image: "./images/yellow-box.png",
     link: "https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh",
     path: "./songs/The Neighbourhood - Yellow Box.mp3",
+    artistnamecolor: "",
+    darkcolor: "",
+    backgroundColorGradient: "",
+    github: ""
   },
 ];
 //
