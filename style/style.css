@@ -52,7 +52,7 @@ a:hover {
 }
 
 #artist-name:hover {
-    color: #000000;
+    color: #65c995;
 }
 
 #song-img {
@@ -98,6 +98,10 @@ img {
     transform: scale(1.05);
 }
 
+.fa-pause-circle:hover {
+    transform: scale(1.05);
+}
+
 .slider div,
 input {
     display: inline;
@@ -106,14 +110,14 @@ input {
 
 input[type="range"] {
     appearance: none;
-    -webkit-appearance: none;  
+    -webkit-appearance: none;
 }
 
-.song-slider {
+#song-slider {
     width: 250px;
 }
 
-.volume-slider {
+#volume-slider {
     margin-left: 10px;
     width: 150px;
 }
@@ -183,11 +187,11 @@ input[type=range]::-ms-thumb:hover {
 }
 
 @media screen and (max-width: 300px) {
-    .song-slider {
+    #song-slider {
         width: 185px;
     }
 
-    .volume-slider {
+    #volume-slider {
         width: 85px;
     }
 }
