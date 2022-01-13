@@ -49,6 +49,7 @@ a:hover {
 #artist-name {
     transition: all 0.1s ease;
     cursor: pointer;
+    display: inline;
 }
 
 #artist-name:hover {
@@ -127,25 +128,25 @@ input[type="range"]:focus {
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    height: 8px;
+    height: 5px;
     cursor: pointer;
     background: #7EDAAA;
 }
 
 input[type=range]::-moz-range-track {
-    height: 8px;
+    height: 5px;
     cursor: pointer;
     background: #7EDAAA;
 }
 
 input[type=range]::-webkit-slider-thumb {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
     border-radius: 5px;
     background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -3px;
+    margin-top: -4px;
     transition: all 0.2s ease;
 }
 
@@ -155,13 +156,13 @@ input[type=range]::-webkit-slider-thumb:hover {
 }
 
 input[type=range]::-moz-range-thumb {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
     border-radius: 5px;
     background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -3px;
+    margin-top: -4px;
     transition: all 0.2s ease;
 }
 
@@ -171,13 +172,13 @@ input[type=range]::-moz-range-thumb:hover {
 }
 
 input[type=range]::-ms-thumb {
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
     border-radius: 5px;
     background: #000000d0;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -3px;
+    margin-top: -4px;
     transition: all 0.2s ease;
 }
 
