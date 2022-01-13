@@ -30,10 +30,10 @@ let currTrack = document.createElement("audio");
 // define the list of tracks that have to be played
 let trackList = [
   {
-    name: "FKJ (Slowed)",
-    artist: "Ylang Ylang",
-    image: "./images/fkj.png",
-    path: "./songs/Ylang Ylang - FKJ (Slowed-Reverb).mp3",
+    name: "Ylang Ylang (Slowed)",
+    artist: "FKJ",
+    image: "./images/ylang-ylang.png",
+    path: "./songs/FKJ - Ylang Ylang (Slowed-Reverb).mp3",
   },
   {
     name: "Let Go (Slowed)",
