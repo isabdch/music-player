@@ -14,3 +14,11 @@ let songSlider = document.getElementsByClassName("song-slider")[0];
 let totalDuration = document.getElementsByClassName("total-duration")[0];
 // volume-slider
 let volumeSlider = document.getElementsByClassName("volume-slider")[0];
+// variables
+let isPlaying = false;
+let trackIndex = 0;
+let updateTimer;
+let audio = document.createElement("audio");
+let trackList = [
+    {}
+]
