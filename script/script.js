@@ -37,7 +37,7 @@ let trackList = [
   },
   {
     name: "Let Go (Slowed)",
-    artist: "Ark Patrol",
+    artist: "Ark Patrol ft. Veronika Redd",
     image: "./images/let-go.png",
     path: "./songs/Ark Patrol - Let Go.mp3",
   },
