@@ -17,7 +17,7 @@
 
 ## ✏️ Project Description
 
-This is a simple music player with some songs I enjoy hearing. You can control the volume, the current time of the song, etc. Also, I added the repeat and shuffle options. Each music has its own colors and page style. If you click on the artist's name you'll go to their Spotify profile. Enjoy!
+This is a simple web music player with some songs I enjoy hearing. You can control the volume, the current time of the song, etc. Also, I added the repeat and shuffle options. Each music has its own colors and page style. If you click on the artist's name you'll go to their Spotify profile. Enjoy!
 
 Project is created with:
 
