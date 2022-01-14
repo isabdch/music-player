@@ -199,11 +199,25 @@ input[type="range"]::-ms-thumb:hover {
 }
 
 @media screen and (max-width: 300px) {
+    #img-song {
+        height: 210px;
+    }
+
+    #previous-song button,
+    #next-song button {
+        font-size: 1.8rem;
+    }
+
+    #song-random button,
+    #repeat button {
+        font-size: 1.2rem;
+    }
+
     #song-slider {
-        width: 185px;
+        width: 180px;
     }
 
     #volume-slider {
-        width: 85px;
+        width: 80px;
     }
 }
