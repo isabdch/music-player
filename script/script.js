@@ -157,8 +157,13 @@ nextSong.addEventListener("click", nextTrack);
 repeatSong.addEventListener("click", songLoop);
 songSlider.addEventListener("change", seekTo);
 volumeSlider.addEventListener("change", setVolume);
+window.addEventListener("load", sound);
 
 // functions
+function sound() {  
+  currTrack.volume = 0.5;
+}
+
 function randomS() {
   if (randomSg == false) {
     randomSg = true;
