@@ -162,9 +162,11 @@ volumeSlider.addEventListener("change", setVolume);
 function randomS() {
   if (randomSg == false) {
     randomSg = true;
+    randomSong.title = "Disable shuffle";
     randomSong.classList.replace("fad", "fas");
   } else {
     randomSg = false;
+    randomSong.title = "Enable shuffle";
     randomSong.classList.replace("fas", "fad");
   }
 }
@@ -177,10 +179,12 @@ function randomNumber(min, max) {
 function songLoop() {
   if (currTrack.loop == false) {
     currTrack.setAttribute("loop", true);
+    repeatSong.title = "Disable repeat";
     repeatSong.classList.replace("fad", "fas");
     repeatSong.classList.replace("fa-repeat", "fa-repeat-1");
   } else {
     currTrack.removeAttribute("loop");
+    repeatSong.title = "Enable repeat";
     repeatSong.classList.replace("fas", "fad");
     repeatSong.classList.replace("fa-repeat-1", "fa-repeat");
   }
@@ -299,6 +303,7 @@ function playTrack() {
   // play the loaded track
   currTrack.play();
   isPlaying = true;
+  playPause.title = "Pause";
 
   // replace icon with the pause icon
   playPause.classList.remove("fa-play-circle");
@@ -310,6 +315,7 @@ function pauseTrack() {
   // pause the loaded track
   currTrack.pause();
   isPlaying = false;
+  playPause.title = "Play";
 
   // replace icon with the play icon
   playPause.classList.remove("fa-pause-circle");
