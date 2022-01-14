@@ -85,17 +85,22 @@ a:hover {
     color: #000000;
 }
 
-#previous-song,
-#next-song {
+button {
+    border: none;
+    background-color: #00000000;
+}
+
+#previous-song button,
+#next-song button {
     font-size: 2rem;
 }
 
-#song-random,
-#repeat-song {
+#song-random button,
+#repeat button {
     font-size: 1.5rem;
 }
 
-#play-pause {
+#play-pause button {
     font-size: 3rem;
     margin-left: 10px;
     margin-right: 10px;
