@@ -63,6 +63,7 @@ a:hover {
 
 #img-song {
     box-shadow: 10px 8px 0px #7EDAAA;
+    border: 1px solid #7EDAAA;
 }
 
 .buttons {
@@ -89,9 +90,9 @@ a:hover {
     font-size: 2rem;
 }
 
-#restart,
+#song-random,
 #repeat-song {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 #play-pause {
@@ -148,7 +149,7 @@ input[type="range"]::-webkit-slider-thumb {
     height: 12px;
     width: 12px;
     border-radius: 5px;
-    background: #000000c0;
+    background: #272728;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -4px;
@@ -164,7 +165,7 @@ input[type="range"]::-moz-range-thumb {
     height: 12px;
     width: 12px;
     border-radius: 5px;
-    background: #000000c0;
+    background: #272728;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -4px;
@@ -180,7 +181,7 @@ input[type="range"]::-ms-thumb {
     height: 12px;
     width: 12px;
     border-radius: 5px;
-    background: #000000d0;
+    background: #272728;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -4px;
