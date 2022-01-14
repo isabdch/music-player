@@ -7,7 +7,7 @@
 ![](https://img.shields.io/github/stars/isabdch/music-player?color=%237EDAAA&style=for-the-badge)
 ![](https://img.shields.io/github/license/isabdch/music-player?color=%237EDAAA&style=for-the-badge)
 
-## [SITE HERE]()
+## [SITE HERE](https://isabdch.github.io/music-player/)
 ![](images/player.png)
 
 ## 📖 Table of Contents
