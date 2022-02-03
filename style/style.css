@@ -134,6 +134,10 @@ input[type="range"] {
     width: 150px;
 }
 
+input[type="range"] {
+    background: transparent;
+}
+
 input[type="range"]:focus {
     outline: none;
 }
