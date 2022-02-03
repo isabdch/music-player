@@ -175,6 +175,7 @@ input[type="range"]::-moz-range-thumb {
     width: 12px;
     border-radius: 5px;
     background: #272728;
+    border: none;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -4px;
